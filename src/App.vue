@@ -2,7 +2,7 @@
   <v-app>
 
     <v-navigation-drawer app v-model="drawer" clipped
-        :mini-variant.sync='mini'
+        
         permanent >
       <!-- -->
       <v-list>

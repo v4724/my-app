@@ -54,7 +54,6 @@ export default function (method, url, data = null) {
         return instance.post(url, data)
     } else if (method == 'get') {
         return instance.get(url, { params: data })
-
     } else if (method == 'delete') {
         return instance.delete(url, { params: data })
     } else if (method == 'put') {
